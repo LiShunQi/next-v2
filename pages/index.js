@@ -13,8 +13,10 @@ class Index extends Component {
         return (
             <div className="content-main">
                 <Title title={'首页'} />
-                <h1>sjsl</h1>
-                <img className="img-item" src={picture} />
+                <h1>centos</h1>
+                <div>
+                    <img className="img-item" src={picture} />
+                </div>
                 <a onClick={() => Router.push('/about')}>go about</a>
             </div>
         )
