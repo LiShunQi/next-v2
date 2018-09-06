@@ -1,0 +1,8 @@
+/* var */
+$rem-base: 50;
+
+
+/* func */
+@function rem($size) {
+  @return $size / $rem-base * 1rem / 2;
+}

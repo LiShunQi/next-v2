@@ -1,0 +1,11 @@
+@import '../static/style/var';
+
+.content-main {
+  color: #f00;
+  font-size: rem(30);
+
+  .img-item {
+    width: rem(100);
+    height: rem(100);
+  }
+}

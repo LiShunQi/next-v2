@@ -1,0 +1,28 @@
+{
+  "name": "next-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001"
+  },
+  "author": "lsq",
+  "license": "MIT",
+  "dependencies": {
+    "@rematch/core": "^0.6.0",
+    "@zeit/next-css": "^0.2.0",
+    "@zeit/next-sass": "^0.2.0",
+    "file-loader": "^2.0.0",
+    "next": "^6.1.1",
+    "node-sass": "^4.9.3",
+    "normalize.css": "^8.0.0",
+    "raw-loader": "^0.5.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "url-loader": "^1.1.1"
+  }
+}
